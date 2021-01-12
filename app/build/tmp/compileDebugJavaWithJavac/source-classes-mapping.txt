@@ -1,0 +1,2 @@
+com/example/storytime/BuildConfig.java
+ com.example.storytime.BuildConfig
