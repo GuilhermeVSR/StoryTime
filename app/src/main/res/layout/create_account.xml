@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".CreateAccount"
     android:orientation="vertical"
-    android:layout_margin="20dp">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="20dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Nome"
+                android:textColor="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
@@ -29,6 +31,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -42,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Sobrenome"
+                android:textColor="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
@@ -49,6 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -61,6 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
                 android:text="Data de Nascimento"
                 android:layout_weight="2"/>
 
@@ -69,6 +77,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="date"
+                android:hint="dd/mm/aaaa"
+                android:textColorHint="#70FFFFFF"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -81,7 +93,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="email"
+                android:text="Email"
+                android:textColor="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
@@ -90,6 +103,10 @@
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:layout_marginTop="10dp"
+                android:hint="exemplo@email.com"
+                android:textColorHint="#70FFFFFF"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_weight="1"/>
         </LinearLayout>
         <LinearLayout
@@ -102,6 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Confirmar email"
+                android:textColor="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
@@ -109,7 +127,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
+                android:hint="exemplo@email.com"
+                android:textColorHint="#70FFFFFF"
                 android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_weight="1"/>
         </LinearLayout>
         <LinearLayout
@@ -122,13 +144,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Senha"
+                android:textColor="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
                 android:id = "@+id/userPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -142,13 +167,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Confirmar Senha"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_weight="2"/>
 
             <EditText
                 android:id = "@+id/userPasswordConfirmation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"/>
         </LinearLayout>

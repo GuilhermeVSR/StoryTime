@@ -19,6 +19,15 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="appBackground" parent="Theme.StoryTime">
+        <item name="android:windowBackground">@drawable/loginbackground</item>
+    </style>
+    <style name="MyDatePicker" parent="Theme.StoryTime">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
     <style name="Theme.StoryTime.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.StoryTime.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

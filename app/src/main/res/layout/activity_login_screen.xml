@@ -2,12 +2,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    android:layout_gravity="center">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    tools:context=".LoginScreen"
+    android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_margin="20dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,7 +25,7 @@
                 android:text="BIG BRAIN TIME CORP"
                 android:layout_marginBottom="50dp"
                 android:layout_weight="2"
-
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:gravity="center"/>
         </LinearLayout>
@@ -34,13 +38,16 @@
                 android:id="@+id/loginTag"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="email"
+                android:text="Email"
+                android:textColor="#FFFFFF"
                 android:layout_weight="4" />
             <EditText
                 android:id="@+id/login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:inputType="textEmailAddress" />
         </LinearLayout>
         <LinearLayout
@@ -54,14 +61,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Senha"
-                android:layout_weight="4"/>
+                android:layout_weight="4"
+                android:textColor="#FFFFFF" />
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPassword"
-                />
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"/>
         </LinearLayout>
         <Button
             android:id="@+id/buttonSubmitLogin"

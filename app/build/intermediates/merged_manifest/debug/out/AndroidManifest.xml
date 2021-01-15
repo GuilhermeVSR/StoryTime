@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -18,14 +20,23 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.StoryTime" >
-        <activity android:name="com.example.storytime.LoginScreen" >
+        <activity
+            android:name="com.example.storytime.MainActivity"
+            android:theme="@style/appBackground" />
+        <activity
+            android:name="com.example.storytime.LoginScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/appBackground" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.storytime.CreateAccount" />
+        <activity
+            android:name="com.example.storytime.CreateAccount"
+            android:screenOrientation="portrait"
+            android:theme="@style/appBackground" />
     </application>
 
 </manifest>

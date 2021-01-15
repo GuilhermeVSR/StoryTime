@@ -13,4 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="appBackground" parent="Theme.StoryTime">
+        <item name="android:windowBackground">@drawable/loginbackground</item>
+    </style>
+
+    <style name="MyDatePicker" parent="Theme.StoryTime">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
 </resources>
